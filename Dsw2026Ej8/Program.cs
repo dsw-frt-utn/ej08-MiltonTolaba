@@ -1,10 +1,12 @@
 ﻿namespace Dsw2026Ej8
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            ProductHelper helper = new ProductHelper();
+            string etiqueta = helper.ObtenerEtiquetaProducto(101, "Teclado Mecanico", 75000);
+            Console.WriteLine(etiqueta);
         }
     }
 }
