@@ -28,6 +28,10 @@
             Console.WriteLine(d.ObtenerInformeFinal(venta1));
             Console.WriteLine(d.ObtenerInformeFinal(venta2));
 
+            Problema6 f = new Problema6();
+            Console.WriteLine(f.NormalizarCodigoProducto(" ab 123 x "));
+            Console.WriteLine(f.NormalizarCodigoProducto(null)); ;
+
         }
     }
 }
