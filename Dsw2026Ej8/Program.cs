@@ -11,6 +11,11 @@
             Problema2 p = new Problema2();
             string resultado = p.CrearResumenVenta(102, "Mouse", 4, 75000);
             Console.WriteLine(resultado);
+
+            Product prod = new Product("Celular");
+            Problema3 q = new Problema3();
+            string resultado1 = q.CompararCopias(5, prod);
+            Console.WriteLine(resultado1);
         }
     }
 }
