@@ -22,6 +22,12 @@
             Console.WriteLine("Caso 2: " + c.CalcularPromedio(8, null, 3));
             Console.WriteLine("Caso 3: " + c.CalcularPromedio(null, null, null));
 
+            Problema5 d = new Problema5();
+            Sale venta1 = new RetailSale(1000);
+            Sale venta2 = new WholesaleSale(1000);
+            Console.WriteLine(d.ObtenerInformeFinal(venta1));
+            Console.WriteLine(d.ObtenerInformeFinal(venta2));
+
         }
     }
 }
